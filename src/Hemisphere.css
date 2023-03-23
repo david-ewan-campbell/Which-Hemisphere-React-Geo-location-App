@@ -1,0 +1,17 @@
+.Northern {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #EE82EE
+}
+
+.Southern {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #7FFFD4
+  }
