@@ -18,7 +18,8 @@ const HemisphereDisplay = ({ latitude }) => {
   const hemisphere = latitude > 0 ? 'Northern' : 'Southern';
   const {text, picture} = hemisphereConfig[hemisphere]
   return(
-    <div className={ hemisphere} >
+  <div>
+    <div className={ hemisphere } >
       <div className='ui raised text container segment'>
         <div className='image'>
           <img src={ picture } width={665} height={475} alt=""/>
@@ -27,6 +28,8 @@ const HemisphereDisplay = ({ latitude }) => {
         <h1>{ text }</h1>
         </div>
       </div>
+    </div>
+    <h1>Hello</h1>
     </div>
   )
 }
