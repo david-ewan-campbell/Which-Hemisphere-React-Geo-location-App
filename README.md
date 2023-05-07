@@ -1,3 +1,9 @@
+A basic React project to learn more rudiments of creating a class based Component that can be rendered via the index.html file.
+
+- By running with `npm start` the app automatically detects which hemisphere you are in based on geo-location api data that it calls.
+
+- You can 'fool' the app by using the sensor tab in the console to tell it that you are in a city in the Southern Hemisphere.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -13,11 +19,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
